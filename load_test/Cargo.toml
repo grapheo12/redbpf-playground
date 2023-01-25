@@ -1,0 +1,11 @@
+[package]
+name = "load_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.0", features = ["rt", "signal", "time", "io-util", "net", "sync", "macros", "rt-multi-thread"] }
+tracing-subscriber = "0.2"
+
